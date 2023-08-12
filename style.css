@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-image{
+    max-width: 100%;
+    height: 100vh;
+    background: url("./Images/backg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position:center;
+}
+.top-part{
+    padding: 30px 50px;
+}
+.title{
+    padding: 40px;
+    display: inline;
+    font-size: 40px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    display: inline;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    float: left;
+}
+.btn{
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    margin: 10px 20px 20px 20px;
+    border: 0px;
+}
+.element{
+    margin: 20px;
+}
+.right-part{
+    display: flex;
+    justify-content: end;
+    margin: -55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form{
+    width: 450px;
+    height: 570px;
+    background-color: white;
+    padding: 20px 40px;
+    margin-left:60px;
+    border-radius: 15px;
+    margin-top: 40px;
+
+
+}
+.line-one{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+.line-two{
+    text-transform: uppercase;
+    margin: 15px 15px 15px 0px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Jost', sans-serif;
+}
+.line-three{
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.line-four{
+    border: 1px solid lightgray;
+    margin: 8px -1px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.line-five{
+    border: 1px solid lightgray;
+    /* text-align: center; */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px -1px;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+}
+.btn-1{
+    height: 60px;
+    margin: 0px 20px 30px 0px;
+    width: 370px;
+    border-radius: 8px;
+    background: rgb(15, 7, 29);
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 0px;
+}
+.text-1{
+    margin: 50px 10px 10px 30px;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-2{
+    margin: 13px 10px 10px 30px;
+    font-size:18px;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+
+.image-section{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+}
+.image-one{
+    background: url("./Images/img-1.jpg");
+    height:400px ;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 30px;
+    color: white;
+    line-height: 30px;
+    border-radius:15px ;
+    margin-right: 20px;
+}
+
+.image-two{
+    background: url("./Images/img-2.jpg");
+    height: 400px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 30px;
+    color: white;
+    line-height: 30px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.image-three{
+    background: url("./Images/img-3.webp");
+        height: 400px;
+        width: 350px;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: end;
+        padding: 30px;
+        color: white;
+        line-height: 30px;
+        border-radius: 15px;
+        margin-right: 20px;
+}
+.image-four{
+    background: url("./Images/img-4.jpg");
+    height: 400px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 30px;
+    color: white;
+    line-height: 30px;
+    border-radius: 15px;
+}
+.h2{
+    font-family: 'Work Sans', sans-serif;
+}
+.p{
+    font-family: 'Mulish', sans-serif;
+}
+.icon-section{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 30px 30px;
+    
+}
+.icon{
+    height: 100px;
+    width: 100px;
+}
+.icon-2{
+    height:130px ;
+    width: 150px;
+    margin-top: -10px;
+}
+.icon-section-one{
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+     height: 280px;
+     width: 620px;
+     padding: 20px;
+     line-height: 20px;
+     margin-right:25px ;
+     box-shadow: 5px;
+}
+.txt-1{
+    font-size: 20px;
+    font-weight:bold;
+    padding: 20px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.txt-2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon-section-two{
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    height: 280px;
+    width: 620px;
+    padding: 20px;
+    margin-right: 25px;
+}
+.txt-3{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.txt-4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bottom-part{
+    background: url("./Images/b-img.jpg");
+    height: 500px;
+    width: 1460px;
+    background-size: cover;
+    background-position: center;
+    margin: 70px 30px 70px 30px;
+    border-radius: 20px;
+}
+.right-div{
+    width: 450px;
+    margin-left: 920px;
+    padding-top: 100px;
+}
+.title-text{
+    font-family: 'Signika', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.para-text{
+    margin: 20px 20px 20px 0px;
+    color: white;
+    font-family: 'Sarabun', sans-serif;
+    line-height: 30px;
+}
+.email{
+    width: 430px;
+    height: 60px;
+    border: 0px;
+    border-radius: 7px;
+}
+.submit{
+    padding: 15px 20px;
+    border: 0px;
+    color: white;
+    background: rgb(25, 15, 44);
+    border-radius: 7px;
+    margin: 30px 20px 20px 150px;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-top: 1px solid lightgray;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: whitesmoke;
+}
